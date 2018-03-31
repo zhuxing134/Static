@@ -1,0 +1,81 @@
+body{
+				text-align: center;
+				background-color: beige;
+				margin: 0;
+				padding: 0;
+				}
+			.container{
+				width:978px;
+				margin: 0 auto;
+				text-align: left;
+			}
+			.intro,.catalog{
+				background-color:azure;
+			}
+			.intro{
+				border: 2px solid #7FFF00;
+				margin-bottom: 10px;
+				}
+			.pic{
+				padding: 20px;
+				width: 144px;
+				height: 192px;
+				float: left;
+			}
+			.intro-content{
+				width: 770px;
+				float: right;
+				color: gray;
+				padding-right: 20px;
+			}
+			.dashed{
+				width: 100%;
+				border-top: 1px dashed #808080;
+				padding-bottom: 15px;
+			}
+			.intro-content h1{
+				color:chartreuse;
+				margin-bottom: 0;
+				padding-bottom: 15px;
+				font-size: 37px;
+			}
+			.intro-content h1 span{
+				color: gray;
+				font-size: 16px;
+				padding-left: 10px;
+			}
+			.clear{clear: both;}
+			.catalog{
+				border: 2px solid #7FFF00;
+				padding-bottom: 5px;
+			}
+			.subsection{
+				text-align: center;
+				font-weight: bolder;
+				font-size: 20px;
+				width: 100%;
+				background-color:lavender;
+				height: 40px;
+				line-height: 40px;
+				border-bottom: 1px solid #808080;
+			}
+			ul{padding:0 20px;margin:0;}
+			ul li{
+				width: 33%;
+				height: 40px;
+				line-height: 40px;
+				float: left;
+				list-style: none;
+				display:block;
+			}
+			ul li.dashed{
+				height: 0;
+				padding: 0;
+				margin: 0;
+			}
+			ul a:link,ul a:visited{
+				color: black;
+			}
+			ul a:hover{
+				color: darkorange;
+			}
