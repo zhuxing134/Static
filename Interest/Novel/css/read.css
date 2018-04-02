@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	text-align: center;
+}
+div.container{
+	margin: 0 auto;
+	width: 978px;
+}
+div.content,div.footer{
+	margin-top: 10px;
+}
+div.content{
+	border: 2px solid chartreuse;
+	padding: 10px 20px;
+}
+div.content>span{margin: 10px;}
+div.read{
+	margin: 10px 0;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+div.content>ul{
+	list-style: none;
+	margin: 0 27.5%;
+}
+div.content>ul>li{
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 20px;
+	background-color: #204D74;
+}
+div.content>ul>li>a,div.content>ul>li>a:visited{
+	color: wheat;
+	text-decoration: none;
+	display: block;
+}

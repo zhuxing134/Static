@@ -1,0 +1,74 @@
+/*清除所有padding,margin*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*内容区设置*/
+body{
+	text-align: center; /*内容居中*/
+	background-color:#D3D0FF;
+}
+/*容器设置*/
+div.container{
+	width: 978px;  /*宽度*/
+	margin: 0 auto; /*居中对齐,左右自适应*/
+	text-align:left; /*内容左对齐*/
+}
+div.content{background-color: rgba(0,0,0,0);}
+div.intro,div.catalog,div.footer{margin-top: 10px;}
+div.intro>img{
+	padding: 20px;
+	width: 144px;
+	height: 192px;
+	float: left;
+}
+div.intro-content{
+	float: left;
+	width: 770px;
+	padding-top: 15px;
+}
+.intro-content h1{
+	color:chartreuse;
+	font-size: 37px;
+	font-weight:bold;
+}
+div.dashed{
+	border-top: dashed 1px gray;
+	margin: 10px 0;
+}
+.intro-content h1 span{
+	color: gray;
+	font-size:16px;
+	padding-left: 10px;
+}
+div.clear{clear: both;}
+div.subsection{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	background-color:lavender;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #DDDDDD;
+}
+div.catalog{padding-bottom: 10px;}
+div.catalog>ul{
+	list-style: none;
+	padding: 0 20px;
+}
+div.catalog>ul>li{
+	width: 33.3%;
+	float: left;
+	border-bottom: 1px dashed gray;
+	height: 40px;
+	line-height: 40px;
+}
+div.catalog>ul>li>a,div.catalog>ul>li>a:visited{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+}
+div.catalog>ul>li>a:hover{
+	color:#FF8C00;
+}
+div.intro,div.catalog{background-color: #DDFFC8;border: 2px solid chartreuse;}

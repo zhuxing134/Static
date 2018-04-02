@@ -1,0 +1,37 @@
+div.header{
+	background: url(../img/logo.png) no-repeat; /*在背景中添加LOGO*/
+	height: 130px;  /*设定header高度*/
+}
+/*导航栏设置*/
+div.header>ul{
+	list-style: none; /*清除ul li样式*/
+	padding-top: 90px;   /*让ul距离顶部90px*/
+}
+div.header>ul>li{
+	float: left;
+	width: 121.375px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-left: 1px solid #DDFFC8;
+}
+div.header>ul>li.one-li{border: none;}
+div.header>ul>li>a,div.header>ul>li>a:visited{
+	background-color: #FFF2C8;
+	display: block;
+	text-decoration: none;
+	color: #A68B33;
+	font-weight: bolder;
+	border-radius: 8px;
+}
+div.header>ul>li>a:hover{
+	background-color: #FFC8D5;
+}
+div.header,div.content,div.footer{
+	background-color: #DDFFC8;
+}
+div.footer{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
