@@ -1,4 +1,4 @@
-var a1,a2,a3,a4;
+var a1,a3,a4;
 url = window.location.pathname;  
 a1 = url.substring(url.lastIndexOf('/') + 1, url.length-5);
 url = window.location.href;

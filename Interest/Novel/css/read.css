@@ -4,6 +4,7 @@
 }
 body{
 	text-align: center;
+	background-color: #FFFFCC;
 }
 div.container{
 	margin: 0 auto;
@@ -13,15 +14,16 @@ div.content,div.footer{
 	margin-top: 10px;
 }
 div.content{
-	border: 2px solid chartreuse;
+	border: 2px solid #3399CC;
 	padding: 10px 20px;
+	text-align: center;
 }
 div.content>span{margin: 10px;}
 div.read{
 	margin: 10px 0;
 	width: 100%;
 	text-align: left;
-	font-size: 20px;
+	font-size: 22px;
 }
 div.content>ul{
 	list-style: none;
@@ -33,10 +35,13 @@ div.content>ul>li{
 	height: 30px;
 	line-height: 30px;
 	margin: 0 20px;
-	background-color: #204D74;
+	background-color: #3399CC;
 }
 div.content>ul>li>a,div.content>ul>li>a:visited{
-	color: wheat;
+	color: #ffffcc;
 	text-decoration: none;
 	display: block;
+}
+div.content>ul>li>a:hover{
+	background-color: #006699;
 }
