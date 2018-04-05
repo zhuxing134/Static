@@ -51,7 +51,7 @@ div.catalog>ul>li{
 div.catalog>ul>li>a,div.catalog>ul>li>a:visited{
 	text-decoration: none;
 	color: #000000;
-	display: block;
+	/*display: block;*/
 }
 div.catalog>ul>li>a:hover{
 	color:#FF8C00;

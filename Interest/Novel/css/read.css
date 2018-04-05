@@ -2,14 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	text-align: center;
-	background-color: #FFFFCC;
-}
-div.container{
-	margin: 0 auto;
-	width: 978px;
-}
 div.content,div.footer{
 	margin-top: 10px;
 }
@@ -23,7 +15,8 @@ div.read{
 	margin: 10px 0;
 	width: 100%;
 	text-align: left;
-	font-size: 22px;
+	font-size: 20px;
+	line-height: 30px;
 }
 div.content>ul{
 	list-style: none;
